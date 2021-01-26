@@ -31,35 +31,30 @@
 /*===========================
     1. MARIAN css 
 ===========================*/
-.courses {
-  font-size: 16px;
-  padding-left: 13px;
-  color: #32333c;
+.single-course {
+  background-color: #fff;
+  border: 1px solid #eceff8;
+  border-radius: 5px;
+  margin-top: 11px;
+  padding: 25px;
+  transition: all 0.3s ease-out 0s; 
 }
-.courses:hover {
-  color: #754ef9; 
-}
-.courses-list-icon{
-  font-size: 20px;
-  color: #754ef9;
-  line-height: 30px; 
+.single-course:hover{
+  box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
 }
 
-.courses-content {
-  margin-top: 11px; 
+.course-content .course-title{
   font-size: 22px;
   font-weight: 600;
   color: #32333c;
+  margin-top: 20px;
   margin-bottom: 20px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  color: #754ef9;
 }
-.single-service-noborder{
-  border: none !important;
+
+.course-title:hover{
+  color: #754ef9;
+
 }
 
 
@@ -966,12 +961,82 @@ p {
     box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
 
 
-    /*===========================
+/*===========================
     4.RESUMEN CSS 
 ===========================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .course-area {
+    padding-top: 90px;
+    padding-bottom: 100px; } }
+@media (max-width: 767px) {
+  .course-area {
+    padding-top: 70px;
+    padding-bottom: 80px; } }
 
-
-
+.single-course {
+  background-color: #fff;
+  border: 1px solid #eceff8;
+  border-radius: 5px;
+  padding: 25px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+  @media (max-width: 767px) {
+    .single-course {
+      padding: 15px; } }
+  .single-course .course-icon i {
+    font-size: 60px;
+    color: #754ef9;
+    line-height: 56px; }
+  .single-course .course-content {
+    margin-top: 11px; 
+  text-align:  left;}
+    .single-course .course-content .course-title a {
+      font-size: 22px;
+      font-weight: 600;
+      color: #32333c;
+      margin-bottom: 20px;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .single-course .course-content .course-title a:hover {
+        color: #754ef9;}
+  .single-course:hover {
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+    box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
+    
+  .single-course-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #32333c;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .single-course-title:hover {
+    color: #754ef9; 
+    font-size: 19px;
+  }
+  .single-course-content-read-more{
+    background-color: rgb(250, 247, 255,1);
+    margin: 10px 20px;
+  }
+.single-course-content-read-more-icon{
+  font-size: 16px;
+  font-weight: bolder;
+  color: #754ef9;
+}
+.single-course-content-read-more-icon:hover{
+  font-size: 18px;
+}
 
 
 

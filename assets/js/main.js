@@ -48,7 +48,7 @@
 
         scrollLink.each(function() {
 
-          var sectionOffset = $(this.hash).offset().top - 73;
+          var sectionOffset = $(this.hash).offset().top -120 ;
 
           if ( sectionOffset <= scrollbarLocation ) {
             $(this).parent().addClass('active');
@@ -120,8 +120,25 @@
         }, 1500);
     });
     
+    /* ===== Este es para el boton del hero ===== */
+    $('a[href$="#about"]').on('click', function(event) {
+        event.preventDefault();
+        
+        $('html, body').animate({
+            scrollTop:  $("#about").offset().top -100,
+        },"slow" );
+    });
 
-    
+       /* ===== Este es para el boton del HIRE ME ===== */
+       $('a[href$="#contact"]').on('click', function(event) {
+        event.preventDefault();
+        
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top -100,
+        },"slow" );
+    });
+
+
     //===== 
     
     
