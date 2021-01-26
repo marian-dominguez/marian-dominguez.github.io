@@ -27,6 +27,55 @@
     10.SINGLE BLOG PAGE
 
 -----------------------------------------------------------------------------------*/
+
+/*===========================
+    1. MARIAN css 
+===========================*/
+.courses {
+  font-size: 16px;
+  padding-left: 13px;
+  color: #32333c;
+}
+.courses:hover {
+  color: #754ef9; 
+}
+.courses-list-icon{
+  font-size: 20px;
+  color: #754ef9;
+  line-height: 30px; 
+}
+
+.courses-content {
+  margin-top: 11px; 
+  font-size: 22px;
+  font-weight: 600;
+  color: #32333c;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  color: #754ef9;
+}
+.single-service-noborder{
+  border: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*===========================
     1. COMMON css 
 ===========================*/
