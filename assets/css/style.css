@@ -593,11 +593,11 @@ p {
         .navigation .navbar .navbar-nav .nav-item a::before {
           position: absolute;
           content: '';
-          width: 3px;
-          height: 0;
+          width: 0%;
+          height: 3px;
           background-color: #754ef9;
           left: 50%;
-          top: -50px;
+          top: 25px;
           -webkit-transform: translateX(-50%);
           -moz-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
@@ -615,9 +615,9 @@ p {
             .navigation .navbar .navbar-nav .nav-item a::before {
               display: none; } }
       .navigation .navbar .navbar-nav .nav-item.active a, .navigation .navbar .navbar-nav .nav-item:hover a {
-        color: #754ef9; }
+        color: #754ef9;}
         .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
-          height: 45px; }
+          width: 100%;}
 
 .header-content {
   height: 730px;
@@ -869,6 +869,10 @@ p {
   padding-left: 13px; }
   .about-content .single-info .info-text p span {
     color: #32333c; }
+    
+    .about-content p{
+      line-height: 34px;
+    }
 
 .about-skills .skill-item .skill-header {
   position: relative; }
@@ -1028,6 +1032,7 @@ p {
   .single-course-content-read-more{
     background-color: rgb(250, 247, 255,1);
     margin: 10px 20px;
+    border-radius: 5px;
   }
 .single-course-content-read-more-icon{
   font-size: 16px;
@@ -1035,7 +1040,7 @@ p {
   color: #754ef9;
 }
 .single-course-content-read-more-icon:hover{
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
