@@ -140,6 +140,19 @@
 
 
     //===== 
+
+    
+       /* ===== Este es para el boton del portfolio en previuos experience ===== */
+       $('a[href$="#work"]').on('click', function(event) {
+        event.preventDefault();
+        
+        $('html, body').animate({
+            scrollTop: $("#work").offset().top -50,
+        },"slow" );
+    });
+
+
+    //===== 
     
     
     
