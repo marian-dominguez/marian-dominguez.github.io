@@ -1,11 +1,10 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Unfold - Personal Resume & CV Template
-    Template URI: site.com
-    Description: Unfold Personal Resume & CV Template
+    Template Name:  Marian Dominguez Personal Resume & CV
+    Description: Marian Dominguez Personal Resume & CV
     Author: Uideck
-    Author URI: https://uideck.com/
-    Support: https://uideck.com/support/
+    Author URI: Marian Dominguez
+    Support: https://marian-dominguez.github.io/
     Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -1890,18 +1889,20 @@ p.form-message.success, p.form-message.error {
 
 /*  =========================== traductor de google =================== */
 #google_translate_element {
-  position: absolute;
+ position: absolute;
   bottom: calc(53px + 16px);
-  right: 16px!important;
-  // z-index: 99999;
+  right: 10px!important;
+ z-index: 99999; 
 }
+
+
 .goog-te-gadget {
-  font-family: Roboto, 'Open Sans', sans-serif!important;
+  font-family: Poppins, 'Open Sans', sans-serif!important;
   text-transform: uppercase;
 }
 .goog-te-gadget-simple  {
   background-color: rgba(255,255,255,0.20)!important;
-  border: 1px solid rgba(255,255,255,0.50) !important;
+  border: 3px solid rgba(255,255,255,0.50) !important;
   padding: 8px!important;
   border-radius: 4px!important;
   font-size: 1rem!important;
@@ -1916,7 +1917,7 @@ p.form-message.success, p.form-message.error {
 .goog-te-menu-value {
   color: #fff !important;
     &:before {
-    font-family: 'Material Icons';
+    font-family: 'Poppins';
     content: "\E927";
     margin-right: 16px;
     font-size: 2rem;
@@ -1929,9 +1930,9 @@ p.form-message.success, p.form-message.error {
 }
 .goog-te-menu-value span:nth-child(3) {
   border:none!important;
-  font-family: 'Material Icons';
+  font-family: 'Poppins';
   &:after {
-    font-family: 'Material Icons';
+    font-family: 'Poppins';
     content: "\E5C5";
     font-size: 1.5rem;
     vertical-align: -6px;
@@ -1939,7 +1940,7 @@ p.form-message.success, p.form-message.error {
 }
 
 .goog-te-gadget-icon {
-    background-image: url(https://placehold.it/32)!important;
+    background-image: url(/assets/images/language-spanish.png)!important;
     background-position: 0px 0px;
     height: 32px!important;
     width: 32px!important;
